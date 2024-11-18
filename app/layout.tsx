@@ -23,7 +23,14 @@ export const metadata: Metadata = {
     siteName: "Aekyung's portfolio",
     locale: "en_US",
     type: "website",
-    images: "/og-image.png",
+    images: [
+      {
+        url: `${baseUrl}/og-image.jpg`,
+        width: 640,
+        height: 640,
+        alt: "A preview image for Aekyung's portfolio",
+      },
+    ],
   },
   robots: {
     index: true,
